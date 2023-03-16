@@ -6,6 +6,14 @@
     <RootNamespace>A_Level.Asynchronous.TaskExample.ThreadExample</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>Threaded Program</AssemblyName>
+    <Authors>Threaded Program</Authors>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="file-example.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>
